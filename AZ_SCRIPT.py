@@ -13,7 +13,7 @@ import datetime
 
 # Authentication
 credential = DefaultAzureCredential()
-subscription_id = "c93bb824-65c3-4eba-b18c-c40a23030467"
+subscription_id = "ADD YOUR SUBSCRIPTION ID"
 
 compute_client = ComputeManagementClient(credential, subscription_id)
 network_client = NetworkManagementClient(credential, subscription_id)
@@ -126,4 +126,5 @@ def main():
     print_report(vms, disks, ips, nics)
 
 if __name__ == "__main__":
+
     main()
