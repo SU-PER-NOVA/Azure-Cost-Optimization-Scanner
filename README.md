@@ -22,6 +22,11 @@ Make sure you have the following installed:
 ```bash
 pip install azure-identity azure-mgmt-compute azure-mgmt-network azure-mgmt-resourcegraph azure-mgmt-costmanagement
 ```
+or 
+```bash
+#after cloning the repo
+pip install -r requirements.txt
+```
 --- 
 
 #  Installation Guide
